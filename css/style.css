@@ -44,7 +44,7 @@ a {
 .nav-a {
   width: 100%;
   background-color: black;
-  padding: 34px 20px;
+  padding: 34px 150px;
 }
 
 .nav-a a {
@@ -55,6 +55,17 @@ a {
 
 .nav a:hover {
   color: aqua;
+}
+
+/* Home */
+
+.home {
+  background-color: orange;
+}
+
+h1 {
+  text-align: center;
+  color: blueviolet;
 }
 
 /* Footer */
