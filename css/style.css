@@ -10,12 +10,27 @@ html {
   margin: 0;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
 .container {
-  margin: auto;
   width: 100%;
+  padding: 20px;
+  min-width: 1200px;
 }
 
 /* Nav */
+
+.nav-img {
+  position: absolute;
+}
 
 .nav-img img {
   width: 100px;
@@ -36,4 +51,50 @@ html {
   font-size: 18px;
   color: white;
   padding: 0 20px;
+}
+
+.nav a:hover {
+  color: aqua;
+}
+
+/* Footer */
+
+footer {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: black;
+  color: white;
+}
+
+footer h3 {
+  padding: 20px 0;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.linea {
+  border: 1px solid aqua;
+  width: 190px;
+  margin: auto;
+}
+
+.info-pag {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+.alum,
+.prof {
+  text-align: left;
+}
+
+span {
+  color: aqua;
 }
