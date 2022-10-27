@@ -8,6 +8,7 @@ html {
   box-sizing: inherit;
   padding: 0;
   margin: 0;
+  max-width: 100%;
 }
 
 body {
@@ -24,6 +25,10 @@ a {
   width: 100%;
   padding: 20px;
   min-width: 1200px;
+}
+
+.home {
+  background-color: orange;
 }
 
 /* Nav */
@@ -59,13 +64,201 @@ a {
 
 /* Home */
 
-.home {
-  background-color: orange;
+.home-cont h2 {
+  text-align: center;
 }
 
-h1 {
+.home-images {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.home-images img {
+  width: 300px;
+  height: 300px;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+
+.plan-azul p {
+  font-size: 24px;
+  width: 500px;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 50px;
+  border: 1px white;
+  background: blue;
+}
+
+.home-cont h1 {
   text-align: center;
   color: blueviolet;
+}
+
+/* Sobre mi */
+
+.photos {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.photos img {
+  width: 450px;
+  height: 450px;
+}
+
+/*Recetas saladas*/
+.contenedor h1 {
+  padding: 20px;
+}
+#listarecetas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.contenedor a:hover {
+  color: aqua;
+}
+
+.contenedor a {
+  color: white;
+}
+
+.fotoreceta img {
+  width: 20px;
+  height: auto;
+}
+.nombreRecetas {
+  background-color: blue;
+  margin: 10px;
+  padding: 10px 70px 10px 70px;
+  border-radius: 20px;
+  text-size-adjust: 7px;
+}
+.cuerpoReceta1 {
+  padding: 20px;
+  margin: 0 10px 0 10px;
+  background-color: gray;
+}
+.tartadeatun {
+  padding: 10px;
+}
+.contenedor {
+  background-color: orange;
+}
+.finalPagina {
+  padding-left: 10px;
+}
+.contenedor .cuerpoReceta1 {
+  display: flex;
+  justify-content: space-between;
+}
+.fotoreceta {
+  display: block;
+  margin-top: 10px;
+}
+.cuerpoReceta1 .ingredientes li {
+  list-style: none;
+}
+.volverMenu a {
+  color: black;
+  margin-left: 15px;
+}
+.volverMenu a:hover {
+  color: white;
+}
+.fotoreceta {
+  width: 200px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.preparacion {
+  margin-right: 50px;
+}
+.TituloImagen {
+  margin-left: 50px;
+}
+.menurecetas {
+  display: block;
+}
+#listarecetas {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.proximamente {
+  display: flex;
+  justify-content: center;
+}
+
+/* Turno y consulta */
+
+.turnos p {
+  text-align: left;
+  color: black;
+  line-height: 25px;
+  margin-left: 2%;
+}
+
+legend {
+  color: black;
+}
+
+.TextoNegrita {
+  line-height: 50px;
+}
+
+.calendario {
+  text-align: center;
+  width: 300px;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.turnos ol {
+  color: black;
+  background-color: rgb(255, 255, 255, 0.3);
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0;
+}
+
+.DiaSemana {
+  background: blueviolet;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.PrimerDia {
+  grid-column-start: 6;
+  padding-top: 10%;
+}
+
+.turnos li {
+  padding-top: 10%;
+}
+
+form {
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.turnos a {
+  margin-left: 2%;
+}
+
+select {
+  width: 200px;
 }
 
 /* Footer */
