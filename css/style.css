@@ -64,8 +64,9 @@ a {
 
 /* Home */
 
-.home-cont h2 {
+.home-cont h3 {
   text-align: center;
+  margin-top: 10px;
 }
 
 .home-images {
@@ -103,6 +104,12 @@ a {
 
 /* Sobre mi */
 
+.sobremi {
+  padding: auto;
+  text-align: center;
+  color: blueviolet;
+}
+
 .photos {
   display: flex;
   gap: 20px;
@@ -114,15 +121,20 @@ a {
   height: 450px;
 }
 
-/*Recetas saladas*/
+/*Recetas saladas y dulces*/
+
 .contenedor h1 {
+  text-align: center;
+  color: blueviolet;
   padding: 20px;
 }
+
 #listarecetas {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 .contenedor a:hover {
   color: aqua;
 }
@@ -135,6 +147,7 @@ a {
   width: 20px;
   height: auto;
 }
+
 .nombreRecetas {
   background-color: blue;
   margin: 10px;
@@ -142,57 +155,72 @@ a {
   border-radius: 20px;
   text-size-adjust: 7px;
 }
+
 .cuerpoReceta1 {
   padding: 20px;
   margin: 0 10px 0 10px;
   background-color: gray;
 }
+
 .tartadeatun {
   padding: 10px;
 }
+
 .contenedor {
   background-color: orange;
 }
+
 .finalPagina {
   padding-left: 10px;
 }
+
 .contenedor .cuerpoReceta1 {
   display: flex;
   justify-content: space-between;
 }
+
 .fotoreceta {
   display: block;
   margin-top: 10px;
 }
+
 .cuerpoReceta1 .ingredientes li {
   list-style: none;
 }
+
 .volverMenu a {
   color: black;
   margin-left: 15px;
 }
+
 .volverMenu a:hover {
   color: white;
 }
+
 .fotoreceta {
   width: 200px;
   border: 1px solid;
   border-radius: 10px;
 }
+
 .preparacion {
   margin-right: 50px;
 }
+
 .TituloImagen {
   margin-left: 50px;
 }
+
 .menurecetas {
   display: block;
 }
+
 #listarecetas {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
 }
+
 .proximamente {
   display: flex;
   justify-content: center;
@@ -259,6 +287,33 @@ form {
 
 select {
   width: 200px;
+}
+
+/* Contacto */
+
+.cont-h1 {
+  text-align: center;
+  color: blueviolet;
+}
+
+.comentario {
+  padding: 1rem;
+  width: 100%;
+  height: 50%;
+}
+
+.contacto {
+  margin: 5px;
+}
+
+.button {
+  text-decoration: none;
+}
+
+.enviar {
+  background-color: blue;
+  color: white;
+  margin: 5px 0px;
 }
 
 /* Footer */
