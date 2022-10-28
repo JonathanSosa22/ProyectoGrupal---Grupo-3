@@ -64,6 +64,10 @@ a {
 
 /* Home */
 
+.container-H2 {
+  color: blueviolet;
+  text-align: center;
+}
 .home-cont h3 {
   text-align: center;
   margin-top: 10px;
@@ -82,19 +86,16 @@ a {
 
 .plan-container {
   display: flex;
-  justify-content: center;
-  gap: 50px;
-  text-align: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
 }
 
-.plan-azul p {
+.plan-container h6 {
+  background-color: blue;
+  border: 3px solid white;
+  padding-bottom: 5px; 
   font-size: 24px;
-  width: 500px;
-  padding: 10px;
-  margin: 5px 0;
-  border-radius: 50px;
-  border: 1px white;
-  background: blue;
 }
 
 .home-cont h1 {
@@ -196,7 +197,6 @@ a {
 .volverMenu a:hover {
   color: white;
 }
-
 .fotoreceta {
   width: 200px;
   border: 1px solid;
@@ -228,6 +228,9 @@ a {
 
 /* Turno y consulta */
 
+h1{
+  color: blueviolet;
+}
 .turnos p {
   text-align: left;
   color: black;
